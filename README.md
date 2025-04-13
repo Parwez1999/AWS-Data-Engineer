@@ -18,6 +18,17 @@ Average salary.
 
 Saves aggregated results in a new CSV file and uploads it to an S3 folder.
 
+**Diagram -**
+
+S3 Bucket (Source Folder): Triggers Lambda upon file upload.
+
+AWS Lambda: Processes the file, computes metrics, and generates a new CSV.
+
+S3 Bucket (Aggregated Folder): Stores the processed CSV file
+
+
+
+
 
 
 **Steps to Deploy -** 
