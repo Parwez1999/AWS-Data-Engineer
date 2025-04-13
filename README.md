@@ -40,4 +40,5 @@ Download the aggregated file and review the results.
 
 
 Sample Input = employee_info.csv
+
 Sample Output = aggregated.csv
