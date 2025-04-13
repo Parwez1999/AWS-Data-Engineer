@@ -39,24 +39,11 @@ AWS Lambda automatically triggers, processes the data, and uploads the result to
 Download the aggregated file and review the results.
 
 
-Sample Input
-employee_info.csv
+Sample Input = employee_info.csv
+Sample Output = aggregated.csv
 
-ID,Name,Age,Salary
-101,Ajit,25,20000
-102,Virat,27,50000
-103,Vijay,32,35000
-104,Sharad,43,45000
-105,Vinay,21,41000
-106,Rohit,27,23000
-107,Prasad,29,40000
-108,Amey,36,32000
-109,Abhijeet,37,35000
-110,Rahul,28,43000
 
-Sample Output
-aggregated.csv
-Metric,Value,Person
+
 Highest Salary,50000,Virat
 Lowest Salary,20000,Ajit
 Average Salary,36400,N/A
