@@ -1,10 +1,10 @@
-Automating CSV Aggregation Using AWS Lambda and S3
+**Automating CSV Aggregation Using AWS Lambda and S3**
 
-Project Overview -
+**Project Overview -**
 
 This project demonstrates how to automate the aggregation of employee data from a CSV file uploaded to an AWS S3 bucket. The Lambda function processes the file, calculates key salary metrics, and uploads the results back to a designated S3 folder.
 
-Features -
+**Features -**
 
 Automatically triggers on CSV file uploads to S3.
 
@@ -20,7 +20,7 @@ Saves aggregated results in a new CSV file and uploads it to an S3 folder.
 
 
 
-Steps to Deploy - 
+**Steps to Deploy -** 
 
 Set Up the S3 Bucket
 
@@ -36,19 +36,18 @@ Configure S3 Event Trigger
 
 Set up an event notification for the source bucket to trigger the Lambda function upon object creation.
 
-Test the Function
+**Test the Function -**
 
 Upload a sample CSV file (e.g., employee_info.csv).
 
 Verify the aggregated file in the aggregated folder of the S3 bucket.
 
-Review Results
+**Review Results -**
 
 Check the aggregated CSV file to ensure accuracy.
 
 
-
-Prerequisites
+**Prerequisites -**
 
 Python 3.x
 
@@ -59,7 +58,7 @@ AWS CLI configured
 Boto3 library
 
 
-Usage
+**Usage -**
 
 Upload the employee CSV file (e.g., employee_info.csv) to the S3 bucket's source folder.
 
