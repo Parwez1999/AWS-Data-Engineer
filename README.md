@@ -41,12 +41,3 @@ Download the aggregated file and review the results.
 
 Sample Input = employee_info.csv
 Sample Output = aggregated.csv
-
-
-
-Highest Salary,50000,Virat
-Lowest Salary,20000,Ajit
-Average Salary,36400,N/A
-
-
-
